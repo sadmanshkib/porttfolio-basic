@@ -6,35 +6,32 @@
     "wdth" 100;
 }
 
-/* nav */
-
 nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 50px 230px;
+    margin-bottom: 0;
 }
 
 #mary-r{
     color: #FD6E0A;
 }
-.nav-mary{
+.mary-titel{
     font-weight: 800;
     font-size: 45px;
 }
-
-.nav-ul{
-    display: flex;
-    gap: 50px;
-    align-items: center;
-}
-
 nav ul li{
     list-style: none;
-    font-weight: 20px;
+    font-size: 20px;
 }
 nav ul li a{
     text-decoration: none;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
 }
 
 .dark02{
@@ -45,8 +42,52 @@ nav ul li a{
     background-color: #FD6E0A;
     font-weight: bold;
     font-size: 20px;
-    color: white ;
+    padding: 20px 35px;
+    color: white;
     border-radius: 5px;
     border: none;
-    padding: 20px 35px;
+
+}
+
+.banner-t1{
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 5px;
+
+}
+.banner-t2{
+    font-weight: bold;
+    font-size: 85px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.banner-des{
+    font-size: 18px;
+    width: 585px;
+    margin-bottom: 33px ;
+
+
+
+
+}
+.banner-pic{
+    width: 584px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px 0 230px ;
+    align-items: center;
+}
+
+.banner-text{
+    width: 585;
+}
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: ;
 }
