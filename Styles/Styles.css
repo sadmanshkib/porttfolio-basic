@@ -37,7 +37,9 @@ nav ul{
 .dark02{
     color: #474747;
 }
-
+.dark03{
+    color:#757575;
+}
 .button{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -63,6 +65,7 @@ nav ul{
 
 .banner-des{
     font-size: 18px;
+    
 
 }
 
@@ -86,4 +89,36 @@ nav ul{
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.about-div{
+    
+    padding: 130px 160px;
+    background-color: #FFF8F3;
+    text-align: center;
+    margin-top: 130px;
+    
+}
+
+.about-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-t1{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.about-info{
+    font-size: 20px;
+}
+.about-info02{
+    font-weight: bold;
+    font-size: 20px;
 }
