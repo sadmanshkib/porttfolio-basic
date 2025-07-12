@@ -53,41 +53,37 @@ nav ul{
     font-weight: bold;
     font-size: 45px;
     margin-bottom: 5px;
-
 }
+
 .banner-t2{
     font-weight: bold;
     font-size: 85px;
     margin-bottom: 20px;
-    padding: 0;
 }
 
 .banner-des{
     font-size: 18px;
-    width: 585px;
-    margin-bottom: 33px ;
-
-
-
 
 }
-.banner-pic{
+
+.banner-img{
     width: 584px;
 }
 
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 40px 0 230px ;
+    margin: 0 40px 0 230px;
     align-items: center;
 }
 
 .banner-text{
-    width: 585;
+    width: 585px;
 }
 
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: ;
+    background-position: top left, bottom right;
+
 }
