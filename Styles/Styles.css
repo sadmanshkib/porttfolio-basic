@@ -122,3 +122,63 @@ main{
     font-weight: bold;
     font-size: 20px;
 }
+
+.skills{
+    display: flex;
+    gap: 24px;
+    
+   
+}
+.skill{
+ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+ padding: 30px;
+}
+
+.center-item{
+    text-align: center;
+  
+}
+.what-do{
+      margin: 130px auto;
+}
+
+.resume-titel{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.resume-t1{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+}
+
+
+.resume-t2{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+}
+.resume-subt2{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+.resume-des{
+    font-weight: bold;
+    font-size: 16px;
+    color: #757575;
+}
+.resume-div{
+    display: flex;
+    gap: 24px;
+}
+
+.resume{
+    margin-bottom: 113px;
+}
+.resume-btn{
+    margin-top: 50px;
+}
